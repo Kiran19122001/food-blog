@@ -65,11 +65,11 @@ function Main() {
       </SectionOne>
       <SectionTwo>
         <AboutImage src={Picture} alt="cross" />
-              <div>
+              <>
                   <AboutHead>About us</AboutHead>
                   <AboutParagraph>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</AboutParagraph>
                   <ReadMoreBtn type="button">Read More</ReadMoreBtn>
-              </div>
+              </>
       </SectionTwo>
       <PageNationCard>
         <ListHead>Latest Articles</ListHead>
@@ -91,19 +91,19 @@ function Main() {
       </PageNationCard>
       <Footer>
       <FotLogo src={Logo} alt="Logo" />
-              <div>
+              <>
                   <ContactUsField>Contact Us</ContactUsField>
                   <ContactPara>Lorem Ipsum Pvt Ltd.5/1, Magalton Road, Phartosh Gate near YTM Market, XYZ-343434</ContactPara>
                   <ContactMail>example2020@gmail.com</ContactMail>
                   <ContactNumber>(904) 443-0343</ContactNumber>
-              </div>
-              <div>
+              </>
+              <>
                   <More>More</More>
                   <MoreFields>About Us</MoreFields>
                   <MoreFields>Products</MoreFields>
                   <MoreFields>Career</MoreFields>
                   <MoreFields>Contact Us</MoreFields>
-              </div>
+              </>
               <SocialDiv>
                   <Social>Social Links</Social>
                   <SocialMedia>
